@@ -1,0 +1,23 @@
+public class Q5_contato {
+
+    public static void main(String[] args){
+
+        Q5_contato Jane = new Q5_contato("Maria Janice Araújo Pereira de Andrade", 991912258);
+
+        Jane.enviar_mensagem("Mãe, posso ir para a festa de sábado?");
+
+        Breno.getQuant_naolidas();
+
+        Jane.receber_mensagem("Não!");
+        Jane.receber_mensagem("Ta maluca?");
+        Jane.receber_mensagem("Você vai ficar em casa!");
+        Jane.receber_mensagem("Que é que você vai fazer lá?");
+        Jane.receber_mensagem("Vai estudar, menina");
+
+        Jane.getQuant_naolidas();
+
+        Jane.mensagensNaoLidas();
+
+        Jane.getQuant_naolidas();
+    }
+}
